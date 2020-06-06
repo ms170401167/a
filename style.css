@@ -1,0 +1,48 @@
+.navbar{
+    background-color:coral !important;
+}
+.nav-link{
+    color: white!important;
+    font font-weight: bold !important;
+}
+.fa-shopping-bag .fa-user-plus{
+font-size: 30px! important;
+}
+.fa-truck{
+   font-size: 40px !important;
+   margin-right: 10px;
+   color: coral !important;
+}
+h3{
+    color: coral ;
+}
+.card1 .card2,.card3{
+    display:flex;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.maincard{
+
+    margin-top: 20px;
+    display: flex;
+    flex direction: row;
+    justify-content: space around;
+    flex-wrap:wrap;
+}
+.New arrivals{
+    margin-top: 50px !important;
+}
+
+@media screen and (max-width: 600px) {
+    .card1 .card2,.card3{
+        width: 100%;
+
+    }
+
+
+    
